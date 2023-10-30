@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans Kannada', sans-serif;
+}
+
+body {
+    width: 430px;
+    margin: 0;
+    height: 100vh;
+}
+
+nav {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 35px;
+    /*border-bottom: 1px solid black;*/
+}
+
+.nav-left {
+    width: 36px;
+    height: 32px;
+}
+
+.nav-center {
+    display: none;
+}
+
+.nav-right {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-right-heart {
+    width: 35px;
+    height: 32px;
+}
+
+.nav-right-bag {
+    width: 26px;
+    height: 32px;
+    margin-left: 16px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 583px;
+    width: 430px;
+    background-image: url("../assets/images/mobile-hero-img.jpg");
+    box-shadow: inset 0 0 0 1000px rgba(178, 191, 196, 19%);
+    background-size: 100%;
+}
+
+.hero a {
+    color: #FEFEFE;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 32px;
+    padding-right: 170px;
+    padding-top: 330px;
+
+}
+
+.hero img {
+    margin-top: 40px;
+    height: 133px;
+    width: 248px;
+
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 35px;
+    margin-top: 24px;
+}
+
+.carousel-1 {
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 246px;
+    width: 430px;
+    background-color: #041B21;
+    margin-top: 48px;
+}
+
+footer ul {
+    color: #B2BFC4;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+
