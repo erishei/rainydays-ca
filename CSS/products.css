@@ -16,6 +16,7 @@ body {
     /*margin: 0 35px;*/
     margin: 0;
     height: 100vh;
+    background-color: var(--secondary);
     /*display: flex;*/
     /*align-items: center;*/
     /*justify-content: center;*/
@@ -33,6 +34,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 0 35px;
+    background-color: #FEFEFE;
     border-bottom: 1px solid var(--primary);
     position: absolute;
 }
@@ -74,6 +76,7 @@ nav {
     font-size: 12px;
     font-weight: normal;
     color: var(--tertiary);
+    background-color: var(--secondary);
     padding: 24px 0;
 }
 
@@ -86,35 +89,51 @@ nav {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: plum;
+    background-color: var(--secondary);
     width: 100%;
     height: fit-content;
+    gap: 24px;
+}
+
+.product-cards h2 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 16px 0 0;
+}
+
+.product-cards h3 {
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 8px 0 0;
 }
 
 .product-cards section {
-    height: 328px;
+    height: 100%;
     width: 360px;
+    background-color: #FEFEFE;
+    /*border: 2px solid purple;*/
+    position: relative;
 }
 
-.product-1 {
-    border: 2px solid purple;
+.product-img {
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.product-2 {
-    border: 2px solid purple;
+.product-cards img {
+    height: 328px;
 }
 
-.product-3 {
-    border: 2px solid purple;
+.product-card-icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    padding: 16px 16px 0 16px;
 }
 
-.product-4 {
-    border: 2px solid purple;
-}
-
-.product-5 {
-    border: 2px solid purple;
-}
 
 footer {
     display: flex;
