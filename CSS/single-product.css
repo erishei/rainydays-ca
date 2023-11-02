@@ -15,7 +15,7 @@ body {
     width: 100vw;
     /*margin: 0 35px;*/
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--secondary);
     /*display: flex;*/
     /*align-items: center;*/
@@ -96,7 +96,7 @@ main {
     height: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 328px 59px 48px;
+    grid-template-rows: 328px 98px 112px 90px;
     /*justify-content: center;*/
     /*flex-direction: column;*/
     background-color: var(--secondary);
@@ -131,7 +131,7 @@ main {
     height: fit-content;
     display: flex;
     justify-content: space-between;
-    margin: 24px 44px;
+    margin: 24px 44px 16px;
     padding: 0;
     color: #041B21;
     /*position: relative;*/
@@ -156,7 +156,49 @@ main {
     position: relative;
 }
 
+form {
+    margin-left: inherit;
+}
 
+select {
+    width: 180px;
+    height: 48px;
+}
+
+input {
+    width: 360px;
+    height: 48px;
+    background-color: var(--cta);
+    color: var(--secondary);
+    border: none;
+    margin-top: 1rem;
+}
+
+input:active {
+    background-color: #041B21;
+}
+
+ul {
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0 48px
+}
+
+.product-details {
+    margin: inherit;
+}
+
+.product-details div {
+    border-top: 1px solid var(--tertiary);
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-details h3 {
+    font-weight: 600;
+    font-size: 1rem;
+}
 
 footer {
     display: flex;
