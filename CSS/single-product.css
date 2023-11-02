@@ -96,11 +96,11 @@ main {
     height: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 328px 98px 112px 90px;
+    grid-template-rows: 328px 98px 112px 90px 216px;
     /*justify-content: center;*/
     /*flex-direction: column;*/
     background-color: var(--secondary);
-    border: 1px solid purple;
+    /*border: 1px solid purple;*/
 }
 
 .product-card {
@@ -199,6 +199,51 @@ ul {
     font-weight: 600;
     font-size: 1rem;
 }
+
+.suggestions-carousel {
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    gap: 16px;
+    height: fit-content;
+}
+
+
+
+.suggestions-carousel div {
+    background-color: #FFF;
+    width: 168px;
+    height: 216px;
+}
+
+.suggestions-carousel-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suggestions-carousel-img img {
+    height: 216px;
+}
+
+.suggestions-carousel h4,p {
+    margin: 0;
+    /*padding-top: 4px;*/
+    position: relative;
+    background-color: #FFF;
+    bottom: 42px;
+}
+
+.suggestions-carousel h4 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.suggestions-carousel p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
 
 footer {
     display: flex;
