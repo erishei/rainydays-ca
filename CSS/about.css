@@ -1,0 +1,177 @@
+:root {
+    --primary: #365B63;
+    --secondary: #F5F5F5;
+    --tertiary: #041B21;
+    --cta: #E3660A;
+    --placeholder: #B2BFC4;
+
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans Kannada', sans-serif;
+}
+
+body {
+    width: 100vw;
+    /*margin: 0 35px;*/
+    margin: 0;
+    min-height: 100vh;
+    background-color: var(--secondary);
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+
+header {
+    position: relative;
+    width: 100%;
+}
+
+nav {
+    height: 64px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 35px;
+    background-color: #FEFEFE;
+    border-bottom: 1px solid var(--primary);
+    position: absolute;
+}
+
+.nav-left {
+    width: 36px;
+    height: 32px;
+}
+
+.nav-center {
+    display: flex;
+    justify-content: center;
+    top: 0;
+    position: relative;
+    height: 64px;
+    width: 100%;
+}
+
+.nav-right {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-right-heart {
+    width: 35px;
+    height: 32px;
+}
+
+.nav-right-bag {
+    width: 26px;
+    height: 32px;
+    margin-left: 16px;
+}
+
+main {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    width: 360px;
+    background-image: url("../assets/images/about.png");
+    box-shadow: inset 0 0 0 1000px rgba(178, 191, 196, 20%);
+    background-size: cover;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    color: var(--secondary);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+article {
+    width: 360px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+article div {
+    margin-bottom: 1.5rem;
+}
+
+button a {
+    font-weight: 300;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+button a:visited {
+    box-shadow: #041B21;
+}
+
+.explore-btn {
+    height: 3rem;
+    width: 360px;
+    margin-bottom: .5rem;
+    /*color: #FFFFFF;*/
+    background-color: var(--cta);
+    border: none;
+}
+
+.sign-up-btn {
+    height: 3rem;
+    width: 360px;
+    background-color: var(--primary);
+    /*color: #FFFFFF;*/
+    border: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 246px;
+    width: 100%;
+    background-color: #041B21;
+    margin-top: 48px;
+}
+
+.footer-links {
+    color: #B2BFC4;
+    padding: 16px;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footer-links li {
+    padding: 8px;
+}
+
+.footer-line {
+    height: 1px;
+    width: 80%;
+    background-color: #B2BFC4;
+}
+
+.footer-social-icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0;
+    margin-top: 24px;
+}
