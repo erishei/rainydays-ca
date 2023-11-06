@@ -37,6 +37,10 @@ h1 {
     gap: .5rem;
 }
 
+::placeholder {
+    color: var(--placeholder);
+}
+
 .submission-form label {
     font-weight: 500;
 }

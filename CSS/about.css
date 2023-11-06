@@ -34,6 +34,11 @@ article div {
     margin-bottom: 1.5rem;
 }
 
+.desktop-right {
+    display: flex;
+    flex-direction: column;
+}
+
 button a {
     font-weight: 300;
     font-size: 1rem;
