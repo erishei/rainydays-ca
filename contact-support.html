@@ -7,9 +7,9 @@
           rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="CSS/checkout-success.css"/>
+    <link rel="stylesheet" type="text/css" href="CSS/contact-support.css"/>
     <link rel="stylesheet" type="text/css" href="CSS/header-footer.css"/>
-    <title>Checkout</title>
+    <title>Contact/Support</title>
 </head>
 <body>
 
@@ -80,62 +80,35 @@
 </header>
 
 <main>
-    <div class="success">
-        <svg width="144" height="144" viewBox="0 0 144 144" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M72 0C32.2989 0 0 32.2994 0 72C0 111.701 32.2989 144 72 144C111.701 144 144 111.701 144 72C144 32.2994 111.701 0 72 0ZM72 141.785C33.5207 141.785 2.21538 110.479 2.21538 72C2.21538 33.5207 33.5207 2.21538 72 2.21538C110.479 2.21538 141.785 33.5207 141.785 72C141.785 110.479 110.479 141.785 72 141.785Z"
-                  fill="#17A61D"/>
-            <path d="M106.381 30.0163L55.035 82.0698L37.6187 64.4137C37.1904 63.9796 36.4967 63.9796 36.0685 64.4137L22.5892 78.078C22.3837 78.2864 22.2681 78.5686 22.2681 78.8638C22.2681 79.159 22.3837 79.4412 22.5892 79.6496L54.2599 111.757C54.4654 111.965 54.7443 112.082 55.035 112.082C55.3256 112.082 55.6045 111.965 55.8101 111.757L121.411 45.2522C121.616 45.0438 121.732 44.7616 121.732 44.4664C121.732 44.1712 121.616 43.889 121.411 43.6806L107.932 30.0163C107.503 29.5822 106.81 29.5822 106.381 30.0163ZM55.035 109.4L24.9146 78.8638L36.8436 66.771L54.2599 84.4272C54.6881 84.8613 55.3818 84.8613 55.8101 84.4272L107.156 32.3737L119.085 44.4664L55.035 109.4Z"
-                  fill="#17A61D"/>
-        </svg>
-        <h2>
-            Your order has successfully been placed!
-        </h2>
-        <h3>
-            Order number: 12345678
-        </h3>
-        <a href="index.html">Click here to track your parcel</a>
-    </div>
-
-    <section>
-        <div class="summary-overview">
-            <h3 class="h3-summary">
-                Summary:
-            </h3>
-            <div class="divider divider-1"></div>
-
-            <div class="box-1">
-                <img src="assets/images/rainydays-sattelite.jpg" alt="women's navy rain jacket">
-                <div>
-                    <h4 class="h4-satellite">Satellite Midi Jacket</h4>
-                    <p>Size: M</p>
-                </div>
-                <div class="div-3">
-                    <p>$139</p>
-                </div>
-            </div>
-
-            <div class="divider divider-2"></div>
-
-            <div class="box-2">
-                <h4 class="h4-shipping">Shipping:</h4>
-                <p>Free</p>
-            </div>
-
-            <div class="divider divider-2"></div>
-
-            <div class="box-3">
-                <h3 class="h3-total">Total:</h3>
-                <p id="p-total">$139</p>
-            </div>
+    <section class="contact-info">
+        <div class="banner">
+            <h1>
+                Contact/Support
+            </h1>
         </div>
-
-        <button>
-            <a href="products.html">
-                Continue shopping
-            </a>
-        </button>
+        <div class="contact-details">
+            <h3>
+                Contact:
+            </h3>
+            <p>
+                E-mail: support@rainydays.com
+            </p>
+            <p>
+                Phone number: +47 41424344
+            </p>
+        </div>
     </section>
 
+    <form class="submission-form">
+        <label for="name">Support:</label>
+        <input type="text" id="name" name="name" aria-placeholder="your name here" placeholder="Name:">
+        <label for="email"></label>
+        <input type="email" id="email" name="email" aria-placeholder="email" placeholder="E-mail:">
+        <label for="subject"></label>
+        <textarea id="subject" name="subject" placeholder="What can we help you with?"
+                  aria-placeholder="your question or issue here"></textarea>
+        <button type="submit" id="submission-btn">Submit request</button>
+    </form>
 </main>
 
 <footer>
