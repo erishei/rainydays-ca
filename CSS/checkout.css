@@ -76,16 +76,22 @@ main {
     margin: 0 0 1rem;
 }
 
+
 .guest-form input {
     font-weight: 500;
     font-size: 1rem;
-    color: var(--placeholder);
+    color: var(--tertiary);
     border: 1px solid var(--tertiary);
     margin-bottom: .5rem;
     height: 3rem;
     width: 360px;
     padding-left: 24px;
     padding-top: 8px;
+}
+
+::placeholder {
+    font-weight: 500;
+    color: var(--placeholder);
 }
 
 .delivery form {
